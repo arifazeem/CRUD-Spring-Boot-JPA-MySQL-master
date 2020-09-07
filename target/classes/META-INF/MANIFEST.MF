@@ -3,9 +3,35 @@ Implementation-Title: bookstore-spring-demo
 Implementation-Version: 0.0.1-SNAPSHOT
 Built-By: md.azim
 Implementation-Vendor-Id: com.bookstore
+Class-Path: spring-boot-starter-web-1.5.2.RELEASE.jar spring-boot-star
+ ter-1.5.2.RELEASE.jar spring-boot-starter-logging-1.5.2.RELEASE.jar l
+ ogback-classic-1.1.11.jar logback-core-1.1.11.jar jul-to-slf4j-1.7.24
+ .jar log4j-over-slf4j-1.7.24.jar spring-core-4.3.7.RELEASE.jar snakey
+ aml-1.17.jar spring-boot-starter-tomcat-1.5.2.RELEASE.jar tomcat-embe
+ d-core-8.5.11.jar tomcat-embed-el-8.5.11.jar tomcat-embed-websocket-8
+ .5.11.jar hibernate-validator-5.3.4.Final.jar validation-api-1.1.0.Fi
+ nal.jar jboss-logging-3.3.0.Final.jar classmate-1.3.3.jar jackson-dat
+ abind-2.8.7.jar jackson-annotations-2.8.0.jar jackson-core-2.8.7.jar 
+ spring-web-4.3.7.RELEASE.jar spring-aop-4.3.7.RELEASE.jar spring-bean
+ s-4.3.7.RELEASE.jar spring-context-4.3.7.RELEASE.jar spring-webmvc-4.
+ 3.7.RELEASE.jar spring-expression-4.3.7.RELEASE.jar spring-boot-start
+ er-data-jpa-1.5.2.RELEASE.jar spring-boot-starter-aop-1.5.2.RELEASE.j
+ ar aspectjweaver-1.8.9.jar spring-boot-starter-jdbc-1.5.2.RELEASE.jar
+  tomcat-jdbc-8.5.11.jar tomcat-juli-8.5.11.jar spring-jdbc-4.3.7.RELE
+ ASE.jar hibernate-core-5.0.12.Final.jar hibernate-jpa-2.1-api-1.0.0.F
+ inal.jar javassist-3.21.0-GA.jar antlr-2.7.7.jar jandex-2.0.0.Final.j
+ ar dom4j-1.6.1.jar hibernate-commons-annotations-5.0.1.Final.jar hibe
+ rnate-entitymanager-5.0.12.Final.jar javax.transaction-api-1.2.jar sp
+ ring-data-jpa-1.11.1.RELEASE.jar spring-data-commons-1.13.1.RELEASE.j
+ ar spring-orm-4.3.7.RELEASE.jar spring-tx-4.3.7.RELEASE.jar slf4j-api
+ -1.7.24.jar jcl-over-slf4j-1.7.24.jar spring-aspects-4.3.7.RELEASE.ja
+ r spring-boot-devtools-1.5.2.RELEASE.jar spring-boot-1.5.2.RELEASE.ja
+ r spring-boot-autoconfigure-1.5.2.RELEASE.jar mysql-connector-java-8.
+ 0.13.jar protobuf-java-3.6.1.jar
 Build-Jdk: 1.8.0_201
 Implementation-URL: http://projects.spring.io/spring-boot/bookstore-sp
  ring-boot-demo/
 Created-By: Maven Integration for Eclipse
 Implementation-Vendor: Pivotal Software, Inc.
+Main-Class: com.bookstore.Application
 
