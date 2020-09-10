@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: bookstore-spring-boot
+  labels:
+    app: backend
+spec:
+  containers:
+    - name: bookstore-spring-boot
+      image: arif91/bookstore-spring-boot:19
+      ports:
+        - containerPort: 8080
