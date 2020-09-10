@@ -7,6 +7,6 @@ metadata:
 spec:
   containers:
     - name: bookstore-spring-boot
-      image: arif91/bookstore-spring-boot:23
+      image: arif91/bookstore-spring-boot:25
       ports:
         - containerPort: 8080
