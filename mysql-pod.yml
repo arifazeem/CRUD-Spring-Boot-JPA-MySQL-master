@@ -1,12 +1,12 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: mysql-database
+  name: mysql-standalone
   labels:
-    db: mysql
+    app: mysql-standalone
 spec:
   containers:
-    - name: db
+    - name: mysql
       image: mysql:5.6
       env:
         - name: MYSQL_ROOT_PASSWORD
@@ -17,3 +17,4 @@ spec:
           value: bookstore
       ports:
         - containerPort: 3306
+          name: mysql

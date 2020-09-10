@@ -1,11 +1,11 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: mysql-serivce
+  name: mysql-standalone
 spec:
   type: NodePort
   selector:
-    db: mysql
+    app: mysql-standalone
   ports:
     - name: mysql-connection
       port: 3306
