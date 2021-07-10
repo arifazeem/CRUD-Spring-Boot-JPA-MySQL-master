@@ -1,13 +1,16 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: bookstore-service
+  name: bookstore-spring-boot
+  # namespace: myproject
 spec:
+  # type: ClusterIP
   type: NodePort
   selector:
     app: backend
   ports:
-    - name: bookstore-connection
+    - name: http
       port: 8080
       targetPort: 8080
       nodePort: 30001
+

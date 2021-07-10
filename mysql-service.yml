@@ -3,11 +3,12 @@ kind: Service
 metadata:
   name: mysql-standalone
 spec:
+  # type: ClusterIP
   type: NodePort
-  selector:
-    app: mysql-standalone
   ports:
-    - name: mysql-connection
+    - name: http-mysql
       port: 3306
       targetPort: 3306
-      nodePort: 30006
+      nodePort: 30003
+  selector:
+    app: mysql-standalone

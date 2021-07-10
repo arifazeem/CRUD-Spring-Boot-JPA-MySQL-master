@@ -4,9 +4,11 @@ metadata:
   name: bookstore-spring-boot
   labels:
     app: backend
+  # namespace: myproject
 spec:
   containers:
-    - name: bookstore-spring-boot
-      image: arif91/bookstore-spring-boot:25
+    - name: myapp
+      image: arif91/bookstore-spring-boot:newtest
+      # imagePullPolicy: Never
       ports:
         - containerPort: 8080
